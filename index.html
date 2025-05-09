@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navrang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/favicon.png">
+    <script>
+        function toggleOffcanvas() {
+            $('#offcanvasExample').offcanvas('hide');
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Landing  -->
+    <div id="landing">
+
+        <!-- Navbar  -->
+        <div class="navbar">
+            <button id="btn" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <svg xmlns="http://www.w3.org/2000/svg" height="60" width="30" fill="#fff" viewBox="0 0 448 512">
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="para offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" data-bs-scroll="true"
+            style="font-family: 'Raleway', sans-serif;">
+            <div class="offcanvas-header">
+                <h5 style="font-weight: bold;" class="offcanvas-title">Welcome to Navrang</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Get everything in one place.
+                </div>
+                <div class="links">
+                    <a href="/">Home</a>
+                    <a href="#services" onclick="toggleOffcanvas()">Our Services</a>
+                    <a href="#about" onclick="toggleOffcanvas()">About</a>
+                    <a href="#contact" onclick="toggleOffcanvas()">Contact</a>
+                </div>
+            </div>
+          
+        </div>
+
+        <!-- Page 1  -->
+        <div class="content" style="font-family: 'Alex Brush', cursive;">
+            <span class="wrap" data-aos="fade-up">Navrang</span>
+            <!-- </div> -->
+            <div data-aos="fade-up" data-aos-delay="200">Filling Colors to your events</div>
+            <a data-aos="fade-up" data-aos-delay="400" id="book" href="register.html">Book Now</a>
+        </div>
+    </div>
+
+    <!-- Services  -->
+    <div class="services para">
+        <img data-aos="zoom-in" src="https://images.unsplash.com/photo-1587271636175-90d58cdad458?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Wedding Image" />
+        <div class="services_content" id="services">
+            <span data-aos="fade-right">OUR SERVICES</span>
+            <div data-aos="fade-left">Welcome to Navrang Event Management, your premier event planning partner in
+                Rewa, M.P, India. At
+                Navrang, we specialize in curating heartwarming moments for life's most significant occasions. Our
+                dedicated team of professionals is here to ensure that your events, whether it's a dreamy wedding, a
+                traditional rice ceremony, an unforgettable bachelor's party, a spectacular live show, or a joyous
+                birthday celebration, are executed flawlessly.</div>
+        </div>
+    </div>
+
+    <div class="">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <span class="fs-1 fw-light mb-5 mt-3" data-aos="fade-right">What do we Offer?</span>
+            <div>
+                <ul style="display: flex; align-items: center; font-size: 1.3rem; flex-wrap: wrap; overflow-y: hidden;">
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="100">
+                        Weddings
+                    </li>
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="200">
+                        Birthdays
+                    </li>
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="300">
+                        Rice Ceremony
+                    </li>
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="400">
+                        Corporate Events
+                    </li>
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="500">
+                        Bachelor's Party
+                    </li>
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="600">
+                        House Warming
+                    </li>
+                    <li style="margin-left: 3rem; padding: .7rem;" data-aos="fade-up" data-aos-delay="700">
+                        Engagement Ceremony
+                    </li>
+
+                </ul>
+                <div class="fs-4 flex align-items-center justify-content-center text-center" data-aos="fade-up">We also provide Catering Services!</div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- About  -->
+    <div class="about para" id="about">
+        <img data-aos="fade-right" src="./assets/bday.png" alt="Birthday Photo">
+        <div data-aos="fade-left">
+            <h1>
+                With a passion for creativity and a commitment to excellence, we turn your visions into!
+            </h1>
+            <p>No matter the event, Navrang's expert planners are here to bring your ideas to life, ensuring that every
+                detail is perfect. Your event, your way - that's our motto.</p>
+        </div>
+    </div>
+
+    <div class="about para" id="about2" data-aos="fade-right" data-aos-delay="200">
+        <div>
+            <h1>
+                Join us at Navrang Event Management, and let's turn your special moments into timeless memories.
+            </h1>
+            <p>So, when it comes to creating unforgettable memories in Tinsukia and beyond, just remember, you name it,
+                we make it happen.</p>
+        </div>
+        <img data-aos="fade-left" data-aos-delay="200" src="https://images.unsplash.com/photo-1616165415772-f5b95c3ae135?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Birthday Photo">
+    </div>
+
+    <!-- Footer  -->
+    <footer id="contact">
+        <div class='viewport_header'>
+            <div class="para heading">
+                Work With Us
+            </div>
+            <div class="para socials">
+                Phone : (+91) 8839193687 <br>
+                Email : <a style="text-decoration: none; color: white;"
+                    href="mailto:teamnavrangevents@gmail.com">ishanshrivastava36657@gmail.com</a>
+            </div>
+        </div>
+        <video autoPlay muted loop class="video">
+            <source src="./assets/footer_bg.mp4" type="video/mp4" />
+        </video>
+        <div class="copyright">
+            © Copyright 2024 Navrang. All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<script src="./js/main.js"></script>
+
+</html>

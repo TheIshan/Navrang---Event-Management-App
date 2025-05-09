@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+    <title>Book Online</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+        html {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="vh-100" style="background-color: #eee;">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-12 col-xl-11">
+                    <div class="card text-black" style="border-radius: 25px;">
+                        <div class="card-body p-md-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Book for Navrang Events</p>
+
+                                    <form class="mx-1 mx-md-4" action="https://formsubmit.co/teamnavrangevents@gmail.com" method="POST">
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <div class="form-outline flex flex-fill mb-0">
+                                                <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                                <input class="border-0" type="text" placeholder="Your name" name="name" required/>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input type="email"  class="border-0" placeholder="Your Email" name="email" required/>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fa-solid fa-cake-candles fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <select name="event_type" class="form-select border-0" style="max-width: 250px;" required>
+                                                    <option value="" disabled selected>Select Event Type</option>
+                                                    <option value="Weddings">Weddings</option>
+                                                    <option value="Birthdays">Birthdays</option>
+                                                    <option value="Rice Ceremony">Rice Ceremony</option>
+                                                    <option value="Corporate Events">Corporate Events</option>
+                                                    <option value="Bachelor's Party">Bachelor's Party</option>
+                                                    <option value="House Warming">House Warming</option>
+                                                    <option value="Engagement Ceremony">Engagement Ceremony</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-phone fa-lg me-3 fa-fw"></i>
+                                            <div class="input-group flex-fill">
+                                                <select name="country_code" class="form-select" style="max-width: 100px;" required>
+                                                    <option value="+91">🇮🇳 +91</option>
+                                                    <option value="+1">🇺🇸 +1</option>
+                                                    <option value="+44">🇬🇧 +44</option>
+                                                    <option value="+61">🇦🇺 +61</option>
+                                                    <option value="+971">🇦🇪 +971</option>
+                                                    <option value="+81">🇯🇵 +81</option>
+                                                    <option value="+49">🇩🇪 +49</option>
+                                                    <option value="+33">🇫🇷 +33</option>
+                                                    <option value="+39">🇮🇹 +39</option>
+                                                    <option value="+86">🇨🇳 +86</option>
+                                                    <option value="+7">🇷🇺 +7</option>
+                                                    <option value="+92">🇵🇰 +92</option>
+                                                    <option value="+880">🇧🇩 +880</option>
+                                                    <option value="+94">🇱🇰 +94</option>
+                                                    <option value="+82">🇰🇷 +82</option>
+                                                    <option value="+34">🇪🇸 +34</option>
+                                                    <option value="+966">🇸🇦 +966</option>
+                                                    <option value="+20">🇪🇬 +20</option>
+                                                    <option value="+55">🇧🇷 +55</option>
+                                                    <option value="+27">🇿🇦 +27</option>
+                                                </select>
+                                                <input type="tel" name="phone" class="form-control border-0" placeholder="Phone Number" required>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-house fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input type="text" 
+                                                placeholder="Address" class="border-0" name="address" required/>
+                                     
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                            <button type="submit"
+                                                class="btn btn-primary btn-lg">Book</button>
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                                        class="img-fluid" alt="Sample image">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
